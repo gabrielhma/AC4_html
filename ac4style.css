@@ -1,0 +1,36 @@
+fieldset{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input[type=text]{
+    background-color: aqua;
+    font-weight: bold;
+    width: 50%;
+}
+
+input[type=text]:focus{
+    background-color: white;
+}
+
+.check{
+    margin-left: 84px;
+}
+
+p{
+    float: left;
+}
+
+textarea{
+    width: 50%;
+    height: 70px;
+    margin-top: 17px;
+    margin-left: 10px;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+textarea:focus{
+    background-color: white;
+}
